@@ -19,3 +19,5 @@ router.route('/:categoryId/products')
   .post(CatController.newCatProd);
 
 module.exports = router;  
+
+//product routes are not yet complete
