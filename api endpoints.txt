@@ -1,0 +1,14 @@
+GET    /categories    	 	-list all categories
+POST   /categories   	 	-creates a new category
+GET    /categories/:id	 	-lists particular category
+PUT    /categories/:id	 	-updates particular category by replacing
+PATCH  /categories/:id   	-updates particular category(by patching)
+DELETE /categories/:id	 	-deletes particular category
+GET    /categories/:id/products -lists all products by particular category
+POST   /categories/:id/products -creates new product for particular category
+GET    /products		-list all products
+POST   /products		-creates new product (global)
+GET    /products/:id		-lists particular product
+PUT    /products/:id		-updates particular car (replace)
+PATCH  /products/:id		-updates particular car (patch)
+DELETE /products/:id		-deletes particular product of a category
