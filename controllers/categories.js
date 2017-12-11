@@ -43,7 +43,7 @@ catch(err){
 
  getCatProd: async (req, res, next) => {
       const { categoryId } = req.params;  
-      const category = await Category.findById(categoryId);
+      const category = await Category.findById(categoryId).populate('products');
       console.log('cat product', category.products);
   },
 
